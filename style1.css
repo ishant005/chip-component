@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    --background-color: #f3f3f5;
+}
+
+
+.main-container{
+    border: 1px solid black;
+     /* margin: auto; */
+    display: flex;
+    height: 18rem;
+ 
+    /* margin:2rem; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column; 
+    
+}
+.basic-chips-header{
+    border-bottom: 1px solid black;
+     width: 40rem;
+     margin:2rem;
+    
+}
+ .chip{
+    height: 10rem;
+    width: 10rem;
+
+    /* border:1px solid red; */
+} 
+.basic-chip-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem;
+    border-bottom:1px solid rgb(19, 18, 18);
+    width: 40rem;
+    height: 3rem;
+    gap: 2rem;
+    background-color: var(--background-color);
+    padding: 1rem;
+}
+.basic-chip-container{
+    
+    background-color: rgb(204, 199, 199);
+    padding: 8px;
+    display: flex;
+    
+    gap: 1rem;
+    border-radius:2rem;
+    height: 1rem;
+ margin-top: 1rem;
+}
+i{
+    margin:3px 0px;
+}
+
+/* Chips Drag and Drop********************************************** */
+*{
+    margin: 0;
+    padding: 0;
+    --background-color: #f3f3f5;
+}
+
+
+.main-container2{
+    border: 1px solid rgb(0, 0, 0);
+     /* margin: auto; */
+    display: flex;
+    height: 15rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column; 
+    /* margin: 2rem 0rem; */
+    
+}
+.basic-chips-header{
+    border-bottom: 1px solid black;
+     width: 40rem;
+     margin:2rem;
+    
+}
+.chip{
+    height: 10rem;
+    width: 10rem;
+
+    /* border:1px solid red; */
+}
+.basic-chip-main-container2{
+    display: flex;
+    
+    margin: 3rem;
+    /* border-bottom:1px solid rgb(19, 18, 18); */
+    width: 40rem;
+  
+    height: 3rem;
+    gap: 2rem;
+    background-color: var(--background-color);
+    padding: 1rem;
+}
+.basic-chip-container2{
+    background-color: rgb(204, 199, 199);
+    padding: 8px;
+    display: flex;
+    width: 3rem;
+    gap: 1rem;
+    border-radius:2rem;
+    height: 1rem;
+ margin-top: 1rem;
+}
+.basic-chip-container2:hover{
+    cursor: pointer;
+   background-color: rgb(99, 95, 95);
+}
+i{
+    margin:3px 0px;
+}
+.basic-chip-content2{
+    margin: auto;
+}
+/* Chip with form control******************************** */
+
+.main-container3{
+    border: 1px solid black;
+     /* margin: auto; */
+    display: flex;
+    height: 20rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column; 
+    /* margin: 2rem 0rem; */
+    
+}
+.basic-chip-main-container3{
+    display: flex;
+    
+    margin: 3rem;
+    border-bottom:1px solid rgb(19, 18, 18);
+    width: 40rem;
+  
+    height: 3rem;
+    gap: 2rem;
+    background-color: var(--background-color);
+    padding: 1rem;
+}
+.basic-chip-container3{
+    
+    background-color: rgb(204, 199, 199);
+    padding: 8px;
+    display: flex;
+    width: 3rem;
+    gap: 1rem;
+    border-radius:2rem;
+    height: 1rem;
+ margin-top: 1rem;
+}
+.basic-chip-container3:hover{
+    cursor: pointer;
+   background-color: rgba(99, 95, 95, 0.623);
+}
+i{
+    margin:3px 0px;
+}
+.basic-chip-content3{
+    margin: auto;
+}
+.btn-component{
+    margin: 0rem 5rem;
+    display: flex;
+    width: 29rem;
+   
+    gap: 2rem;
+   
+}
+.btn{
+    border: 1px solid black;
+    height: 2rem;
+    width: rem;
+    display: inline;
+    padding:1rem 1rem ;
+    gap: 1rem;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 2px;
+
+}

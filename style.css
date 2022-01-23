@@ -1,0 +1,147 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* || reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* || reset for btn */
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* variables */
+:root {
+  --main-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  --hover-effect-color: #b1b1b1;
+  --light-gray: rgb(210, 210, 210);
+  --prime-color: rgb(63, 80, 181);
+  --light-pink: rgb(255, 63, 128);
+  --warm-color: rgb(244, 67, 54);
+}
+
+/* || basic layout main container*/
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+/* || genral styling */
+html {
+  font-size: 100%;
+}
+body {
+  background-color: #f7f7f7;
+}
+h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1rem;
+}
+p {
+  font-size: 1rem;
+}
+i {
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* title styleing */
+#title {
+  background-color: gray;
+  font-weight: 300;
+  margin: 1rem;
+  padding: 0.8rem;
+  color: white;
+  text-align: center;
+  box-shadow: var(--main-box-shadow);
+}
+
+/* || all component box */
+.component-box {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 4rem;
+}
+
+/* all chips layout */
+.chip-flow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.chip-box-style {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  transition: 0.5s;
+  background-color: var(--light-gray);
+  margin: 0.2rem;
+  cursor: default;
+}
+.chip-box-style:hover {
+  filter: brightness(85%);
+}
+
+/* chip one */
+
+.chips-box-btn {
+  display: flex;
+  line-height: 1;
+}
+
+.i-btn-cancle {
+  cursor: pointer;
+}
+.p-cancle-para {
+  margin-right: 0.4rem;
+}
+
+/* chip one */
+
+/* chip two */
+
+/* ----- used same styling -----*/
+
+/* chip two */
+
+/* chip three */
+
+.stacked-chip-flow {
+  display: flex;
+  flex-direction: column;
+}
+.stack-chip-style {
+  width: 10rem;
+}
+/* chip three */
+
+/* prime alret warm chip color*/
+.prime-chip {
+  color: white;
+  background-color: var(--prime-color);
+}
+.alert-chip {
+  color: white;
+  background-color: var(--light-pink);
+}
+.warm-chip {
+  color: white;
+  background-color: var(--warm-color);
+}
